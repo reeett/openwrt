@@ -1,9 +1,11 @@
 name: Build OpenWRT
 
-
 on:
-  watch:
-    types: [started]
+  workflow_dispatch:
+
+#on:
+# watch:
+#    types: [started]
 #  push:
 #    branches:
 #      - master
